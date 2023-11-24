@@ -637,6 +637,17 @@ div .second{
     .hero-section div{
       width: 80%;
     }
+    .hero h2{
+      font-size: 1.8rem;
+      text-align: left;
+    }
+    .hero p{
+      font-size: 1.1rem;
+      text-align: left;
+    }
+    .hero .buttons{
+      text-align: left;
+    }
     .aboutleft h2{
       font-size: 1.5rem;
     }
