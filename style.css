@@ -165,9 +165,7 @@ body {
   align-items: center;
   height: 95vh;
   padding: 0 15px;
-  max-width: 1600px;
   transition: all 0.6s ease;
-
   margin: 0 auto;
 
 }
@@ -495,7 +493,8 @@ div .second{
   flex-wrap: wrap;
   background-color: #1b1b1b;
   color: whitesmoke;
-  min-height: 300px;
+  min-height: 350px;
+  width: 100%;
   box-sizing: border-box;
   padding: 1.5rem;
 }
@@ -513,7 +512,7 @@ div .second{
 .footer .title p{
   font-weight: lighter;
   font-size: 0.85rem;
-  line-height: 1.3rem;
+  line-height: 1.4rem;
 }
 .footer .title b{
   font-size: 0.9rem;
@@ -525,7 +524,7 @@ div .second{
 }
 .footer .useful-links div{
   color: rgb(156, 155, 155);
-  line-height: 1.7rem;
+  line-height: 1.9rem;
   font-size: 0.9rem;
 }
 .footer .line{
@@ -540,13 +539,67 @@ div .second{
 }
 .footer .domain-links div{
   color: rgb(156, 155, 155);
-  line-height: 1.7rem;
+  line-height: 1.9rem;
   font-size: 0.9rem;
+}
+.footer i{
+  color: white;
 }
 .footer .intern{
   width: 30%;
   box-sizing:border-box;
   padding:1.5rem;
+}
+.footer .useful-links span:hover{
+  color: white;
+  cursor: pointer;
+}
+.footer .domain-links span:hover{
+  color: white;
+  cursor: pointer;
+}
+.copyright{
+  min-height: 110px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.copyright .left{
+  width: 40%;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+}
+.copyright .left span{
+  color: white;
+}
+.copyright .right{
+  width: 16%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+.copyright .right div{
+  background-color: rgb(73, 72, 72);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 55%;
+  width: 19%;
+  border-radius: 5px;
+  text-align: center;
+}
+.copyright .right i{
+  color: white;
+  font-size: 1.4rem;
+}
+.intern span{
+  color: rgb(164, 164, 164);
+
 }
 @media screen and (max-width: 900px) {
   .wrapper .carousel {
@@ -562,7 +615,79 @@ div .second{
     .navbar .logo a {
       font-size: 1.5rem;
     }
-  
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: auto;
+    }
+    .container .front-face{
+      margin: auto;
+      width: 40%;
+      margin-bottom: 1.1rem;
+    }
+    .hero-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      min-height: 100%;
+      height: 100%;
+      width: 100%;
+    }
+    .hero-section div{
+      width: 80%;
+    }
+    .aboutleft h2{
+      font-size: 1.5rem;
+    }
+    .footer{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+    .footer .title{
+      width: 100%;
+    }
+    .footer .title .line{
+      margin: auto;
+    }
+    .footer .intern{
+      width: 100%;
+    }
+    .footer .domain-links{
+      width: 100%;
+    }
+    .footer .useful-links{
+      width: 100%;
+    }
+    .footer .domain-links .line{
+      margin: auto;
+    }
+    .footer .useful-links .line{
+      margin: auto;
+    }
+    .footer .intern .line{
+      margin: auto;
+    }
+    .copyright{
+      display: flex;
+      flex-direction: column;
+    }
+    .copyright .left{
+      width: 100%;
+    }
+    .copyright .right{
+      width: 100%;
+      height: 100%;
+    }
+    .copyright .right div{
+      height: 40px;
+      width: 40px;
+    }
+    .title{
+      width: 100%;
+    }
     .links {
       position: fixed;
       left: -100%;
