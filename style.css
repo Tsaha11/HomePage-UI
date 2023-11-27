@@ -623,7 +623,7 @@ div .second{
     }
     .container .front-face{
       margin: auto;
-      width: 60%;
+      width: 65%;
       margin-bottom: 1.1rem;
     }
     .hero-section{
@@ -661,8 +661,24 @@ div .second{
     }
     .aboutleft h2{
       font-size: 1.6rem;
-
+      
     }
+    .aboutbox{
+      width: 90%;
+    }
+    .aboutbox div div{
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .aboutbox div div i{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 10px;
+    }
+    
     .footer{
       display: flex;
       flex-direction: column;
