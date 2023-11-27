@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -201,7 +201,7 @@ body {
   padding: 12px 24px;
   border-radius: 0.375rem;
   font-weight: 600;
-  transition: 0.2s ease;
+  transition: 0.4s ease;
   display: inline-block;
 }
 
@@ -226,7 +226,7 @@ body {
   text-align: center;
   padding: 5%;
   transition: all 0.6s ease;
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   justify-content: space-around;
 }
@@ -623,7 +623,7 @@ div .second{
     }
     .container .front-face{
       margin: auto;
-      width: 40%;
+      width: 60%;
       margin-bottom: 1.1rem;
     }
     .hero-section{
@@ -638,24 +638,45 @@ div .second{
       width: 80%;
     }
     .hero h2{
-      font-size: 1.8rem;
-      text-align: left;
+      font-size: 2.4rem;
+      text-align: center;
     }
     .hero p{
       font-size: 1.1rem;
-      text-align: left;
+      text-align: center;
     }
     .hero .buttons{
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      padding-left: 50px;
+    }
+    .about{
+      padding: 5%;
       text-align: left;
     }
+    .aboutleft{
+      text-align: left;
+      padding: 0px;
+    }
     .aboutleft h2{
-      font-size: 1.5rem;
+      font-size: 1.6rem;
+
     }
     .footer{
       display: flex;
       flex-direction: column;
       width: 100%;
       text-align: center;
+    }
+    .front-face{
+      background-color: rgb(255, 255, 219);
+      width: 400%;
+      margin: 0px;
+      padding: 0px;
+    }
+    .front-face .cover{
+      width: 100%;
     }
     .footer .title{
       width: 100%;
